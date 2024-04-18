@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registration Form</title> 
+    <style> 
+        table,tr,td{ 
+            border: 1px solid; 
+            /* border-collapse: collapse; */ 
+            padding: 1px; 
+            width: 500px; 
+            text-align: center; 
+            height: 60px; 
+        } 
+        form{ 
+            display: table; 
+        } 
+        label{ 
+            display: table-cell; 
+            text-align: left; 
+        } 
+        input{ 
+            display: table-cell; 
+            text-align: left; 
+        } 
+        pre{ 
+            display: table-row; 
+        } 
+        div{ 
+            width: 500px; 
+            padding: 20px; 
+        } 
+        .content { 
+            max-width: 500px; 
+            margin: auto; 
+        } 
+             
+    </style> 
+</head> 
+ 
+<body> 
+    <div style="background-color: aqua;" class="content"> 
+    <table> 
+        <tr> 
+            <td> <b>Student Registration Form </b></td> 
+        </tr> 
+    </table> 
+    <br> 
+    <form> 
+ 
+    <pre> 
+    <label for="name"> Name :</label> 
+    <input type="text" name="name" size="30" placeholder="Enter full name"> 
+    </pre><br><br> 
+ 
+    <pre> 
+    <label for=" father name"> Father Name :</label> 
+    <input type="text" name="father name" size="30" > 
+    </pre><br><br> 
+ 
+    <pre> 
+    <label for="Mother name"> Mother Name : </label> 
+    <input type="text" name="name" size="30"> 
+    </pre><br><br> 
+ 
+    <pre> 
+    <label for="Phone number"> Phone Number :   </label> 
+    <input type="text" name="name" size="30" placeholder="+91 **********"> 
+    </pre><br><br> 
+ 
+    <pre> 
+    <label for="Email"> Email :</label> 
+    <input type="text" name="name" size="30" placeholder="Enter your email"> 
+    </pre>
+ 
+  
+    <label for="gender"> Gender :</label>
+    <input type="radio" name="Gender" id="" style="margin-left: 56px; margin-right:6px;">male
+    <input type="radio" name="Gender" id="" style="margin-left: 15px; margin-right:6px;">female
+    <input type="radio" name="Gender" id="" style="margin-left: 15px; margin-right:6px;">other
+    <!-- </label> -->
+    
+ 
+    <pre> 
+        <label for="date"> Date Of Birth : </label> 
+        <input type="date"><br> 
+    </pre> 
+ 
+    <pre>  
+        <label for="address"> Address</label> 
+        <input type="address" placeholder="Entert your address"> <br> 
+    </pre> 
+ 
+    <pre> 
+        <label for="bg"> Blood Group :</label> 
+        <select name="" id="" > 
+            <option value=""></option> 
+            <option value="">A+</option> 
+            <option value="">A-</option> 
+            <option value="">B+</option> 
+            <option value="">B-</option> 
+            <option value="">O+</option> 
+            <option value="">O-</option> 
+            <option value="">AB+</option> 
+            <option value="">AB-</option> 
+        </select><br> 
+    </pre> 
+ 
+    <pre> 
+        <label for=""> Department</label> 
+        <input type="checkbox">CSE <input type="checkbox">EEE <input type="checkbox">BBA 
+    </pre> 
+ 
+    <pre> 
+        <label for=""> Course</label> 
+        <input type="checkbox">C<input type="checkbox">C++<input type="checkbox">Java<input type="checkbox">AI<input type="checkbox">Machine learning<input type="checkbox">Robotics 
+    </pre> 
+ 
+    <pre> 
+        <label for=""> Photo</label> 
+        <select name="" id=""> 
+            
+            <option value=""> <img src="./images/pexels-craig-adderley-1563355.jpg"></option> 
+            <option value=""><img src="./images/pexels-pixabay-36717.jpg"></option> 
+            <option value=""><img src="./images/pexels-pixabay-60597.jpg"></option> 
+            <option value=""><img src="./images/pexels-tetyana-kovyrina-937980.jpg"></option> 
+        </select><br><br> 
+    </pre> 
+ 
+    <pre> 
+        <input type="submit"><input type="reset"> 
+    </pre> 
+    </form> 
+    </div> 
+</body> 
+ 
+</html>
