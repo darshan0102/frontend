@@ -29,7 +29,7 @@
 
 /* multiple border apply */
 
-.multiborder{
+.multipleborder{
     border-top: 2px solid red;
     border-right: 2px solid blue;
     border-bottom: 2px solid green;
@@ -40,5 +40,12 @@
 }
 
 /* border radius apply */
+.radius{
+   color: white;
+   background-color: black;
+   height: 100px;
+   width: 100px;
+   border: 2px solid blue;
+   border-radius: 20px;
 
-.
+}
