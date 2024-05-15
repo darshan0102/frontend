@@ -6,6 +6,8 @@
     grid-template-rows: 100px 150px 150px 100px;
     text-align: center;
     border: 15px solid #000000;
+    color: white;
+    font-style: bold;
 }
 
 .item1{
@@ -14,7 +16,7 @@
 }
 
 .item2{
-    background-color: rgb(47, 255, 109);
+    background-color: rgb(47, 255, 200);
     grid-row: 2/4;
 }
 
