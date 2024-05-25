@@ -1,0 +1,55 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+.position {
+
+    padding: 20px;
+    height: 110vh;
+    margin: 0px 0px 100px 100px;
+    position: relative;
+}
+
+.positions {
+    height: 200px;
+    width: 200px;
+    border: 9px solid rgb(0, 0, 0);
+    margin: 20px;
+    background-color: white;
+}
+
+.position1 {
+    position: static;
+    cursor: alias;
+    background-color:aqua;
+}
+
+.position2 {
+    left: 400px;
+    position: fixed;
+    cursor: cell;
+    background-color: blueviolet;
+
+}
+
+.position3 {
+    position: relative;
+    cursor: col-resize;
+    background-color: greenyellow;
+}
+
+.position4 {
+    position: absolute;
+    cursor:all-scroll;  
+    right: 100px;
+    background-color: red;
+}
+
+.position5 {
+    position: sticky;
+    cursor: copy;
+    top: 100px;
+    background-color: violet;
+}

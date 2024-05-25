@@ -1,0 +1,16 @@
+.thor{
+    font-size: 310px;
+    /* font-weight: 100px; */
+    background-image: url("./marvel-iron-man-in-destroyed-suit-desktop-wallpaper-preview.jpg");
+    background-size: contain;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mask-repeat: no-repeat;
+    /* filter: blur(10px); */
+    /* filter: none ; */
+    /* filter: brightness(200px); */
+    filter: drop-shadow(10px 20px 5px gray);
+    /* filter: grayscale(100%); */
+    /* filter: opacity(0%); */
+
+}
