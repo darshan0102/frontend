@@ -18,11 +18,11 @@
                 </div>
                 <div class="navbar">
                     <nav>
-                        <a href="">HOME</a>
-                        <a href="">ABOUT US</a>
-                        <a href="">CLASSES</a>
-                        <a href="">SCHEDULES</a>
-                        <a href="">CONTACT</a>
+                        <a href="#banner_sec1" class="active">HOME</a> 
+                        <a href="#testimonial_sec1">ABOUT US</a> 
+                        <a href="#pricing1">CLASSES</a> 
+                        <a href="#timetable1">SCHEDULES</a> 
+                        <a href="#form_sec1">CONTACT</a>
                     </nav>
                     <div>
                         <a href=""><i class="fa-brands fa-facebook-f h_icon facbook"></i></a>
@@ -36,7 +36,7 @@
 
 <!-- Banner -->
     <div>
-        <section class="banner">
+        <section class="banner" id="banner_sec1">
             <h6>new way to build a healthy lifestyle!</h6>
             <h1>UPGRADE YOUR BODY AT <br> GYMSO FITNESS</h1>
             <a href="" class="button1">GET STARTED</a>
@@ -64,8 +64,11 @@
             </div>
         </div>
     </section>
+
+  
+
  <!-- Testimonial -->
-        <section class="testimonial_section">
+        <section class="testimonial_section" id="testimonial_sec1">
             <div class="container testimonial_flex">
                 <div class="testimonial_div1">
                     <h2 class="intro">Hello, we are Gymso</h2>
@@ -100,9 +103,51 @@
                 </div>
             </div>
         </section>
-    <!-- Time Schedule -->
+
+            <!-- CLASSES -->
+
+      <div>
+        <section class="container classes" id="pricing1">
+          <div>
+            <h6 class="stitle">Get A Perfect Body</h6>
+            <h2 class="title">Our Training Classes</h2>
+          </div>
+          <div class="classes_pricing">
+            <div class="classes_info">
+              <img src="../image/yoga-class.jpg" alt=""/>
+              <div class="c_p_inner_info">
+                <h3>Yoga</h3>
+                <span><strong>Trained by</strong> - Bella</span>
+                <span class="price">$50</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+              </div>
+            </div>
+            <div class="classes_info">
+              <img src="../image/crossfit-class.jpg" alt="" />
+              <div class="c_p_inner_info">
+                <h3>Areobic</h3>
+                <span><strong>Trained by</strong> - Mary</span>
+                <span class="price">$66</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+              </div>
+            </div>
+            <div class="classes_info">
+              <img src="../image/cardio-class.jpg" alt="" />
+              <div class="c_p_inner_info">
+                <h3>Cardio</h3>
+                <span><strong>Trained by</strong> - Cathe</span>
+                <span class="price">$75</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+   <!-- Time Schedule -->
+   
     <div>
-        <section class="schedule section" id="section">
+        <section class="schedule section" id="timetable1">
             <div class="container">
                 <div class="row">
                     <div class="text-center col-lg-12 col-12">
@@ -215,5 +260,55 @@
             </div>
         </section>
     </div>
+ <!-- Contact -->
+ <div>
+    <section class="container contact_section" id="form_sec1">
+      <div>
+        <h2 class="c_title">Feel free to ask anything</h2>
+        <form action="" class="form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea name="" id="" rows="10" placeholder="Message"></textarea>
+          <input type="button" value="Send Message" class="form_btn" />
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <!-- Map -->
+  <div>
+    <section class="m_section">
+      <div>
+        <h2 class="m_title">Where you can find us</h2>
+        <p class="paragraph">
+          <i class="fa-solid fa-location-dot"></i>120-240 Rio de Janeiro -
+          State of Rio de Janeiro, Brazil
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238133.18800900166!2d72.65748353239132!3d21.159120355102836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1717218858752!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <div>
+    <footer class="container main_footer">
+      <div class="inner_footer">
+        <div>
+          <p class="paragraph">Copyright © 2020 Gymso Fitness Co.</p>
+          <p class="paragraph">Design: Tooplate</p>
+        </div>
+        <div class="f_contact">
+          <p class="paragraph">
+            <i class="fa-regular fa-envelope"></i> hello@company.co
+          </p>
+          <p class="paragraph">
+            <i class="fa-solid fa-phone"></i> 010-020-0840
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
 </body>
 </html>

@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Plain', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -448,3 +449,167 @@ td {
     margin: 6px 10px;
     transition: 0.5s;
 }
+
+/* Classes */
+.classes {
+    padding: 112px 0px;
+  }
+  
+  .classes .title {
+    color: #171819;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -2px;
+  }
+  
+  .classes .stitle {
+    color: #909090;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .classes .classes_pricing {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .classes .classes_info img {
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  .classes .classes_info {
+    margin: 0px 15px;
+  }
+  
+  .classes .classes_info .c_p_inner_info {
+    position: relative;
+    padding: 16px 32px;
+    background: #fff;
+    box-shadow: 6px 0 38px rgba(20, 20, 20, 0.1);
+    border-radius: 0 0 2px 2px;
+  }
+  
+  .classes .classes_info .c_p_inner_info h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+  
+  .classes .classes_info .c_p_inner_info p {
+    margin: 16px 0px;
+    color: #666262;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .classes .classes_info .c_p_inner_info strong {
+    color: #909090;
+  }
+  
+  .classes .classes_info .c_p_inner_info .price {
+    position: absolute;
+    right: 32px;
+    top: 30px;
+    display: block;
+    background: #f13a11;
+    color: #fff;
+    height: 56px;
+    width: 56px;
+    font-weight: bold;
+    border-radius: 50%;
+    line-height: 56px;
+    text-align: center;
+  }
+  
+  /* Conatct */
+  .contact_section {
+    padding: 112px 0px;
+  }
+  
+  .contact_section .c_title,
+  .m_section .m_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: -2px;
+  }
+  
+  .contact_section .form .form_btn:hover {
+    background-color: #f13a11;
+    color: white;
+    border: 1px solid #f13a11;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .contact_section .form input {
+    height: calc(2.25rem + 20px);
+  }
+  
+  .contact_section .form input,
+  .contact_section .form textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+  }
+  
+  .contact_section .form .form_btn {
+    background-color: #171819;
+    color: white;
+    border: 1px solid #171819;
+    transition: 0.5s;
+  }
+  
+  /* Map */
+  .m_section {
+    border-bottom: 1px solid #efebeb;
+    padding-bottom: 80px;
+  }
+  
+  .m_section .paragraph i {
+    color: #f13a11;
+  }
+  
+  .m_section .paragraph {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  .main_footer {
+    padding: 50px 0px;
+  }
+  
+  .inner_footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .f_contact .paragraph i {
+    margin-right: 5px;
+    color: #f13a11;
+  }
+  
+  .f_contact p.paragraph {
+    margin-right: 35px;
+  }
+  
+  .f_contact {
+    display: flex;
+    justify-content: space-between;
+  }
