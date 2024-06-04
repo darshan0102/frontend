@@ -1,0 +1,26 @@
+body {
+  background-color: azure;
+}
+
+ul {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(42, 165, 149);
+  list-style-type: none;
+}
+ul li {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  color: white;
+  justify-content: space-between;
+}
+ul li:hover {
+  color: skyblue;
+  cursor: pointer;
+  background-color: rgb(100, 100, 100);
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=index.css.map */
