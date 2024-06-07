@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("./cardio-class.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header .logo {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header .logo a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid green;
+}
+.header .logo a span {
+  color: lightgreen;
+}
+.header .logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 2px white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+.header .list ul a {
+  font-size: large;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+xuu .header .list ul a:hover {
+  border-bottom: 3px solid green;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: green;
+}
+.header .btn {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.header .btn a {
+  font-size: x-large;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  background-color: green;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+.header .btn a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: green;
+  border-bottom: 3px solid green;
+}/*# sourceMappingURL=install.css.map */

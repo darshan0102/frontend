@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+$color: white;
+
+.container {
+    background-image: url('./image/businessfornature-banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .logo {
+        color: $color;
+        font-size: xx-large;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        a {
+            color: $color;
+            text-decoration: none;
+            border-bottom: 3px solid green;
+
+            span {
+                color: lightgreen;
+            }
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 5px 2px white;
+            object-fit: cover;
+        }
+    }
+
+    .list {
+        ul {
+
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 20px;
+
+            a {
+                font-size: large;
+                color: $color;
+                text-decoration: none;
+                padding: 10px;
+                xuu
+
+                &:hover {
+                    border-bottom: 3px solid green;
+                    background-color: rgba(255, 255, 255, 0.8);
+                    color: green;
+                }
+            }
+        }
+    }
+
+    .btn {
+        font-size: x-large;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: $color;
+        gap: 20px;
+
+
+        a {
+            font-size: x-large;
+            color: $color;
+            padding: 0.5rem 1.5rem;
+            background-color: green;
+            text-decoration: none;
+            border-radius: 20px;
+            text-transform: capitalize;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.8);
+                color: green;
+                border-bottom: 3px solid green;
+            }
+        }
+    }
+
+}

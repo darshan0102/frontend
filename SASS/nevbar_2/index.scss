@@ -1,6 +1,5 @@
 body{
     background-color: azure;
-
 }
 
 ul{
@@ -16,14 +15,14 @@ ul{
     border-radius: 10px;
     color: white;
     justify-content: space-between;
+    // height: 10px;
+    // width: 1px;
 
     &:hover{
         color: skyblue;
         cursor: pointer;
         background-color: rgb(100, 100, 100);   
         transition: 0.5s;
-
-
     }
   }
 }
