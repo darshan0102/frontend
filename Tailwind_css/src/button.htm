@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script> 
+        tailwind.config = { 
+          theme: { 
+            extend: { 
+              colors: { 
+                color1: '#000000', 
+              } 
+            } 
+          } 
+        } 
+      </script> 
+</head> 
+<body> 
+ 
+    <div class="flex justify-evenly mt-10 h-screen bg-sky-200"> 
+        <button class="bg-red-500 text-white px-5 py-2 hover:bg-pink-600 rounded self-center">Click Me</button> 
+    </div> 
+     
+</body> 
+</html>

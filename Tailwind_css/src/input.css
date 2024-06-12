@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+/* .box1
+{
+    @apply  overflow-hidden h-[300px] w-[300px] ;
+}
+
+.card
+{
+    @apply h-[500px] w-[300px]  shadow-lg shadow-gray-800 duration-1000   ;
+}
+
+
+
+.item_name
+{
+    @apply text-xl font-bold mt-10 mb-3;
+} */
+
+@tailwind utilities;
