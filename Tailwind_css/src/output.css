@@ -621,6 +621,10 @@ video {
   pointer-events: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -836,6 +840,22 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
 }
 
 .block {
@@ -2253,11 +2273,6 @@ video {
 .before\:duration-300::before {
   content: var(--tw-content);
   transition-duration: 300ms;
-}
-
-.before\:content-\[\'f\'\]::before {
-  --tw-content: 'f';
-  content: var(--tw-content);
 }
 
 .before\:content-\[\'\'\]::before {
