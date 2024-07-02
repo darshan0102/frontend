@@ -1,6 +1,5 @@
 // create header componant
 
-
 const name = "darshan";
 function Header(){
     return (
