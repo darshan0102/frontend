@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    border: 5px solid rgb(12, 230, 9);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(241, 77, 241);
+    padding: 30px;
+    margin: 50px;
+    outline: 20px double rgb(20, 2, 222);
+    outline-offset: 20px;
+    border-radius: 0px 5px 0px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

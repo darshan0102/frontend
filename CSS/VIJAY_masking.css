@@ -1,0 +1,9 @@
+.text-img{
+    font-size: 690px;
+    background-image: url("./1239410.jpg");
+    background-size: contain; /* Ensures the background image is contained within the text */
+    background-clip: text; /* Clips the background image to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent */
+    /* box-shadow: 10px 10px 5px black; Applies a shadow effect to the text */
+    filter: drop-shadow(20px 30px 5px gray);
+}

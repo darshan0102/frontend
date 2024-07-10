@@ -1,0 +1,43 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+p:nth-child(6){
+   color: aqua;
+}
+
+a:link{
+    color: red;
+}
+
+
+a:visited{
+    color:aqua
+}
+
+a:hover{
+    color: black;
+    background-color: yellow;
+}
+
+a:active{
+    color: darkgreen;
+}
+
+
+/* ::last-line
+::first-line
+::before
+::after */
+
+
+.vijay::first-letter{
+   color: red;
+}
+
+
+ul li::marker{
+    color: blue;
+}

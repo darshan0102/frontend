@@ -1,0 +1,56 @@
+h1{
+    color: aqua;
+}
+
+h1{
+    background-color: azure;
+}
+
+/* when apply multiple property then css apply last style,means overwrite(top to bottom approch apply) */
+
+p{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+
+/* diffrent between body and universal selector */
+
+*{
+    color: cadetblue;
+}
+body{
+    color: violet;
+}
+
+/* ID - used - # */
+
+h1{
+    color: tomato;
+}
+
+#vijay_solanki{
+    color: slateblue;
+}
+#vijay_vala{
+    color: blanchedalmond;
+    background-color: yellowgreen;  
+}
+
+/* grouping selector */
+
+.box1{
+    background-color: sienna;
+}
+
+p{
+    background-color: rosybrown;
+}
+
+h4{
+    background-color: beige;
+}
+
+.box2 , p , h5{
+    background-color: peru;
+}
+
