@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import pavbhaji from '../assets/download.jpg';
+import coco from '../assets/coco.jpg'
 import './Recips.css'; // Import the CSS file for styling
 
 export function Pavbhaji() {
@@ -73,6 +74,60 @@ export function Pavbhaji() {
   );
 }
 
+export function Coco() {
+    return(
+        <div class="container">
+        <h1>Coconut Cake Recipe</h1>
+        <h2>Ingredients:</h2>
+        <h3>Cake:</h3>
+        <ul>
+            <li>2 cups all-purpose flour</li>
+            <li>2 teaspoons baking powder</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1/2 cup unsalted butter, softened</li>
+            <li>1 1/2 cups granulated sugar</li>
+            <li>4 large eggs</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 cup coconut milk</li>
+            <li>1 cup shredded coconut</li>
+        </ul>
+        <h3>Frosting:</h3>
+        <ul>
+            <li>1/2 cup unsalted butter, softened</li>
+            <li>4 cups powdered sugar</li>
+            <li>1/4 cup coconut milk</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 cup shredded coconut (for topping)</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <h3>For the Cake:</h3>
+        <ol>
+            <li>Preheat Oven: Preheat your oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.</li>
+            <li>Mix Dry Ingredients: In a medium bowl, whisk together the flour, baking powder, and salt. Set aside.</li>
+            <li>Cream Butter and Sugar: In a large mixing bowl, cream the butter and sugar together until light and fluffy.</li>
+            <li>Add Eggs and Vanilla: Beat in the eggs one at a time, then stir in the vanilla extract.</li>
+            <li>Combine Wet and Dry Ingredients: Gradually add the flour mixture to the butter mixture, alternating with the coconut milk. Begin and end with the flour mixture. Mix until just combined.</li>
+            <li>Fold in Coconut: Gently fold in the shredded coconut.</li>
+            <li>Bake: Divide the batter evenly between the prepared cake pans. Bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.</li>
+            <li>Cool: Allow the cakes to cool in the pans for 10 minutes, then turn them out onto a wire rack to cool completely.</li>
+        </ol>
+        <h3>For the Frosting:</h3>
+        <ol>
+            <li>Beat Butter: In a large mixing bowl, beat the softened butter until creamy.</li>
+            <li>Add Sugar and Coconut Milk: Gradually add the powdered sugar, alternating with the coconut milk. Beat until smooth and fluffy.</li>
+            <li>Add Vanilla: Stir in the vanilla extract.</li>
+        </ol>
+        <h3>Assemble the Cake:</h3>
+        <ol>
+            <li>Layer the Cake: Place one cake layer on a serving plate. Spread a layer of frosting over the top.</li>
+            <li>Add Second Layer: Place the second cake layer on top of the first and frost the top and sides of the cake.</li>
+            <li>Top with Coconut: Sprinkle the shredded coconut over the top and sides of the cake, pressing lightly to adhere.</li>
+        </ol>
+        <p>Enjoy your homemade coconut cake!</p>
+    </div>
+    )
+}
+
 const Recips = () => {
   const [showRecips, setShowRecips] = useState(false);
 
@@ -87,6 +142,10 @@ const Recips = () => {
         <img src={pavbhaji} alt="Pav Bhaji" /> {showRecips ? 'Hide Recipe' : 'Show Recipe'}
       </button>
       {showRecips && <Pavbhaji />}
+      <button className="toggle-button" onClick={buttonClick}>
+        <img src={coco} alt="Pav Bhaji" /> {showRecips ? 'Hide Recipe' : 'Show Recipe'}
+      {showRecips && <Coco />}
+      </button>
     </div>
   );
 }
