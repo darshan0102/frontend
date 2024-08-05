@@ -1,5 +1,5 @@
 import React from 'react'
-import Callback from './Pages/CallBack'
+// import Callback from './Pages/CallBack'
 
 
 const App = () => {
