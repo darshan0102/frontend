@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .heading{
+    @apply text-center py-4 bg-red-400 hover:bg-black text-4xl hover:text-white text-black h-screen flex items-center justify-center font-extrabold italic
+  }
+}
