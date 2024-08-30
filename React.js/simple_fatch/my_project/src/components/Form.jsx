@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Form = ({ onSubmit, initialData, onCancel }) => {
   const [formData, setFormData] = useState({
     id: '',
+    image: '',
     firstname: '',
     lastname: '',
     age: '',
@@ -30,7 +31,7 @@ const Form = ({ onSubmit, initialData, onCancel }) => {
     <div className="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">User Information</h2>
       <form onSubmit={handleSubmit}>
-        {/* <div className="mb-5">
+        <div className="mb-5">
           <label htmlFor="image" className="block text-sm font-medium text-gray-700 mb-1">Image URL</label>
           <input
             type="text"
@@ -42,7 +43,7 @@ const Form = ({ onSubmit, initialData, onCancel }) => {
             placeholder="https://example.com/image.jpg"
             required
           />
-        </div> */}
+        </div>
         <div className="mb-5">
           <label htmlFor="firstname" className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
           <input
@@ -127,7 +128,7 @@ const Form = ({ onSubmit, initialData, onCancel }) => {
           </button>
         </div>
       </form>
-    </div>
+     </div>
   );
 };
 
