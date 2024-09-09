@@ -1,0 +1,59 @@
+/* @import url("importstyle.css");
+@import "importstyle.css"; */
+
+/* Cascade */
+h1{
+    color: darkblue;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+/* Specificity */
+
+h4{
+    color: yellowgreen;
+}
+
+#specificity_id{
+    color: lightsalmon;
+}
+
+.specificity_class {
+    color: cornflowerblue;
+}
+
+/* inheritance */
+.parent{
+    color: crimson;
+}
+
+/* child */
+p{
+    color: blueviolet;
+}
+
+/* inherit means parants style take */
+p{
+    color: inherit;
+}
+
+/* initial means default browser stylr css */
+p{
+    color: red;
+}
+
+.touch{
+    color: red;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    &:hover{
+        background-color: blue;
+        color: white;
+    }
+}
