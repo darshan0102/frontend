@@ -98,7 +98,7 @@ const Home = () => {
       </div>
 
       <table className="min-w-full divide-y divide-gray-200 bg-white shadow rounded-lg">
-        <thead className="bg-blue-600 text-white">
+        <thead className="bg-green-900 text-white">
           <tr>
             <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider">Id</th>
             <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider">Image</th>
@@ -132,7 +132,7 @@ const Home = () => {
                   onMouseEnter={() => handleMouseEnter(item.id, 'view')}
                   onMouseLeave={() => handleMouseLeave(item.id)}
                 >
-                  <button className="text-blue-500 hover:text-blue-700 text-2xl">
+                  <button className="text-green-500 hover:text-green-700 text-2xl">
                     <GrFormView />
                   </button>
                   {showTooltip[item.id] === 'view' && (
@@ -142,13 +142,13 @@ const Home = () => {
                   )}
                 </div>
 
-                <Link to='/edit'>
+                <Link to={`/edit/${item.id}`}>
                 <div
                   className="relative inline-block"
                   onMouseEnter={() => handleMouseEnter(item.id, 'edit')}
                   onMouseLeave={() => handleMouseLeave(item.id)}
                 >
-                  <button className="text-yellow-500 hover:text-yellow-700 text-xl mx-2">
+                  <button className="text-yellow-500 hover:text-yellow-700 text-xl mx-2" >
                     <FaRegEdit />
                   </button>
                   {showTooltip[item.id] === 'edit' && (
@@ -187,14 +187,14 @@ const Home = () => {
           <button
             onClick={() => setPage(prev => Math.max(prev - 1, 1))}
             disabled={page === 1}
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-sm hover:bg-blue-600 disabled:opacity-50"
+            className="px-4 py-2 bg-green-500 text-white rounded-lg shadow-sm hover:bg-green-600 disabled:opacity-50"
           >
             Previous
           </button>
           <button
             onClick={() => setPage(prev => Math.min(prev + 1, pages))}
             disabled={page === pages}
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-sm hover:bg-blue-600 disabled:opacity-50"
+            className="px-4 py-2 bg-green-500 text-white rounded-lg shadow-sm hover:bg-green-600 disabled:opacity-50"
           >
             Next
           </button>
