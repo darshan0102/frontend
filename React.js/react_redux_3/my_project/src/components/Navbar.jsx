@@ -88,11 +88,11 @@ export function Navbar() {
               </button>
               <button>
                 <NavLink to="/login">
-                  <IoLogInSharp className="text-3xl text-gray-950 hover:text-[#ff0000]"  />
+                  <IoLogInSharp className="text-3xl text-gray-950 hover:text-[#ff0000]" />
                 </NavLink>
               </button>
               <button>
-                <CgProfile className="text-3xl text-gray-950 hover:text-[#ff0000"  />
+                <CgProfile className="text-3xl text-gray-950 hover:text-[#ff0000" />
               </button>
             </Link>
             <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 border rounded-full px-1 bg-black text-white text-xs">
@@ -109,7 +109,7 @@ export function Navbar() {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
-                    <span></span>
+                    l̥ <span></span>
                     <span className="font-bold">DevUI</span>
                   </div>
                   <div className="-mr-2">
