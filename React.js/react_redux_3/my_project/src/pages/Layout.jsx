@@ -9,6 +9,8 @@ import Product from './Product'
 import Page404 from './Error404Page'
 import { Navbar } from '../components/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Login from "./Login";
+import Profile from "./Profile";
 
 const Layout = () => {
   return (
@@ -23,6 +25,8 @@ const Layout = () => {
                 <Route path='/cart' element={<Cart/>}></Route>
                 <Route path='/product' element={<Product/>}></Route>
                 <Route path='/*' element={<Page404/>}></Route>
+                <Route path='/login' element={<Login/>}></Route>
+                <Route path='/profile' element={<Profile/>}></Route>
             </Routes>
         </BrowserRouter>
     </div>
