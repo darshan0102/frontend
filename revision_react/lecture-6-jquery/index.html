@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animate Button</title>
+  <style>
+    #animateButton {
+      width: 100px;
+      height: 40px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<button id="animateButton">Animate Me</button>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#animateButton').click(function() {
+      $(this).animate({
+        width: '200px',   // New width
+        height: '80px'    // New height
+      }, 1000, function() {
+        // Optional: Animation complete callback
+        alert('Animation complete!');
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
